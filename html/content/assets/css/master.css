@@ -1,0 +1,89 @@
+/* Tag specific */
+body {
+	margin: 0px;
+	background-color: #252525;
+	color: #e8e8e8;
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 45px;
+}
+h2 {
+	font-weight: bolder;
+	font-size: 30px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+input {
+	font-size: 16px;
+}
+::-webkit-input-placeholder {
+	font-style: italic;
+	font-weight: bold;
+	font-family: courier;
+}
+
+div.wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px;
+}
+div.embed {
+	background-color: #202020;
+	border-radius: 5px;
+	border-left: 4px solid #3f3f3f;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	display: flex;
+	transition: 0.4s;
+}
+div.embed:hover {
+	background-color: #282828;
+	border-left: 4px solid #764740;
+	transition: 0.4s;
+}
+a {
+	font-weight: bold;
+	color: #ac7870;
+	cursor: pointer;
+	transition: 0.3s;
+}
+a:hover {
+	color: #764740;
+	transition: 0.3s;
+}
+img.cat {
+	display: block;
+	margin: auto auto;
+	width: 85%;
+}
+/* General Classes */
+.gap {
+	height: 50px;
+	display: block;
+}
+.noMargin {
+	margin: 0;
+}
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+.inline {
+	display: inline;
+}
+.form {
+	padding-bottom: 10px;
+}
+.italic {
+	font-style: italic;
+}
